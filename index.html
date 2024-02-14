@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="reg.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form action="" id="validation">
+            
+
+            <div class="formgroup">
+                <label for="">Username</label>
+                <input type="text" name="username" id="user" placeholder="username" required>
+            </div>
+
+            
+            <div class="formgroup">
+                <label for="">Password</label>
+ <input type="password" name="password" id="pass" placeholder="password" required>
+ <div id="meter_wrapper">
+  <div id="meter"></div>
+ </div>
+</section>
+ <br>
+
+<span id="pass_type"></span>
+
+
+
+
+</div>
+
+
+<div class="formgroup">
+    <label for=""> confirm Password</label>
+ <input type="password" name="cpassword" id="cpass" placeholder=" confirm password" required>
+</div>
+
+    <div class="formgroup">
+        <label for="">Gender</label>
+    <br><br>
+    <label for="">Male</label>
+    <input type="radio" name="gender" id="">
+    <label for="">Female</label>
+    <input type="radio" name="gender" id="">
+</div>
+<br>
+   <div>
+     <label for="">Dob</label>
+   <select name="Dob" id="">
+    <option value="">Day</option>
+   <option value="1">1</option>
+   </select>
+
+   <select name="Dob" id="">
+    <option value="">Month</option>
+    <option value="1">jan</option>
+   </select>
+
+   <select name="Dob" id="">
+    <option value="">year</option>
+    <option value="1">2000</option>
+   </select>
+</div>
+<br>
+
+<div class="formgroup">
+    <label for="">Phone number</label>
+ <input type="tel" name="phone" id="num" placeholder="Number" required>
+</div>
+
+<div class="formgroup">
+        <label for="">email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+ </div>
+
+    <button onclick="btn()">Submit</button>
+    
+</form>
+</div>
+<script src="jqueryy.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+</body>
+</html>
